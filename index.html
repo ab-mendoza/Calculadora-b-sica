@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header><h1 class="title">Calculadora básica</h1></header>
+    <img src="Mates.jpg" alt="Foto de matemáticas para portada" class="image">
+    <main>
+        <div class="inputSection">
+            <div class="firstNumber">
+                <label>Primer numero:</label>
+                <input type="number" placeholder="Ingresa un número" id="firstNumber">
+            </div>
+            <div class="secondNumber">
+                <label>Segundo número:</label>
+                <input type="number" placeholder="Ingresa un número" id="secondNumber">
+            </div>
+        </div>
+        <div class="displayResult" id="displayResult">El resultado se mostrará aqui.</div>
+        <div class="buttonSection">
+            <button class="singleButton" onclick="operation('suma')">Suma</button>
+            <button class="singleButton" onclick="operation('resta')">Resta</button>
+            <button class="singleButton" onclick="operation('multiplicación')">Multiplicación</button>
+            <button class="singleButton" onclick="operation('división')">División</button>
+        </div>
+    </main>
+    <footer><p>&copy;2024 Moisés Mendoza. Todos los derechos reservados.</p></footer>
+    <script src="app.js"></script>
+</body>
+</html>

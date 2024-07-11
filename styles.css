@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    font-family: var(--font-montserrat);
+}
+
+:root {
+    --color-primario: #003366;
+    --font-montserrat: "Montserrat", sans-serif;
+}
+
+html, body {
+    display: flex;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.image {
+    position: absolute;
+    top: 5rem;
+    right: 2rem;
+    width: 15rem;
+    border-radius: 10px;
+}
+
+header{
+    width: 100%;
+}
+
+.title {
+    display: flex;
+    color: white;
+    background-color: var(--color-primario);
+    font-family: var(--font-montserrat);
+    width: 100%;
+    height: 4rem;
+    margin-top: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sectionWithImage {
+    display: flex;
+    flex-direction: row;
+    margin-left: 22rem;
+}
+
+.image {
+    display: flex;
+}
+
+.inputSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3.5rem;
+}
+
+.displayResult {
+    display: flex;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.buttonSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 3rem;
+    background-color: var(--color-primario);
+    height: 2.7rem;
+    width: 39rem;
+    border-radius: 5px;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.singleButton {
+    height: 1.8rem;
+    width: 7rem;
+    border-radius: 10px;
+}
+
+.singleButton:hover {
+    background-color: #004C99;
+    color: white;
+}
+
+footer {
+    display: flex;
+    background-color: #003366;
+    width: 100%;
+    align-items: centr;
+    justify-content: center;
+    color: white;
+    height: 4rem;
+}
